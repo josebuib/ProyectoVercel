@@ -8,7 +8,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
 app.get('/', (req, res) => {
-    res.json({ "message": "Welcome to my messages API"})
+    res.json({ "message": "Welcom"})
 })
 
 export default app;
